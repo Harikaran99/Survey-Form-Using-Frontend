@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body><div class="background"></div>
+    <h1 id="title">Haunted Experience Survey Form</h1>
+    <fieldset><p id="description" class="massage">This is a Survey Form for Collecting information from who experienced paranormal activity in their life,please share it with us!.This will help us to create awareness about Unkown Mystries still exits in world!!!</p>
+    </fieldset>
+    <fieldset><form id="survey-form">
+        <label id="name-label" for="name" class="sub-title">Enter your name: </label>
+        <input class="info" type="text" id="name" required placeholder="Your Full Name" >
+        <label id="email-label" for="email" class="sub-title">Enter Your Email ID: </label>
+        <input class="info" type="email" id="email" placeholder="Email address" required>
+        <label id="number-label" for="phone" class="sub-title">Enter Your Phone Number: </label>
+        <input id="number" class="info" type="number" min="0" max="9999999999" required placeholder="Phone Number">
+        <label id="Gender-label" for="Gender" class="sub-title">Select your ender: </label>
+        <select class="drop" name="gender" id="dropdown">
+            <option value="">Male</option>
+            <option value="1">Female</option>
+            <option value="2">Trangender</option>
+            <option value="3">Not to Say</option>
+        </select>
+        <label class="sub-title" for="question">where You feel it select below: </label>
+        <label class="option" for="option"><input type="radio" name="option" value="1"  >Burning-ground cemetery</label>
+        <label class="option" for="option"><input type="radio" name="option" value="2"  >Haunted abonted lake</label>
+        <label class="option" for="option"><input type="radio" name="option" value="3"  >Haunted abonted Mental Hospital</label>
+        <label class="option" for="option"><input type="radio" name="option" value="4"  >Haunted abonted house with creepy sounds</label>
+        <label class="option" for="option"><input type="radio" name="option" value="5"  >Haunted Frost creepy air sound</label>
+        <label class="sub-title" for="question">where You feel it select below: </label>
+        <label class="option" for="option"><input type="checkbox" name="option" value="1"  >Burning-ground cemetery</label>
+        <label class="option" for="option"><input type="checkbox" name="option" value="2"  >Haunted abonted lake</label>
+        <label class="option" for="option"><input type="checkbox" name="option" value="3"  >Haunted abonted Mental Hospital</label>
+        <label class="option" for="option"><input type="checkbox" name="option" value="4"  >Haunted abonted house with creepy sounds</label>
+        <label class="option" for="option"><input type="checkbox" name="option" value="5"  >Haunted Frost creepy air sound</label>
+        <label for="comment" class="thoughts">Share your thoughts below !</label>
+        <textarea class="comment-box" name="comment" id="comment-box" cols="104" rows="15" placeholder="Share Your Experience Here...."></textarea>
+        <input type="submit" id="submit" class="button">
+    </form></fieldset>
+  </body>
+</html>
